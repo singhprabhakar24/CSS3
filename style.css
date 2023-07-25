@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(161, 161, 235);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.card{
+    height: 290px;
+    width: 210px;
+    background-color: white;
+    transform: 0.5s;
+    box-shadow: 0 5px 5px   rgb(194, 178, 161);
+    position: absolute;
+}
+h3{
+    padding-top: 40%;
+    justify-content: center;
+    padding-left: 20%;
+    color: blueviolet;
+}
+p{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+color: blueviolet;
+}
+button{
+    background-color: bisque;
+    border-radius: 4px;
+    margin-left: 60px;
+    font-size: 13px;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: brown;
+}
+.innerdiv{
+  width: 30%;
+  height: 20%;
+
+  background-color: rgb(118, 48, 187);
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  transition: 0.5s;
+
+ 
+}
+h2{
+    color: white;
+    padding-top: 20px;
+}
+.innerdiv:hover {
+    background-color: rgb(118, 48, 187);
+    height: 290px;
+    width: 210px;
+}
+.innerdiv:hover h2{
+ margin-top: 47%;
+    font-size: 50px;
+    color: darkorange;
+}
